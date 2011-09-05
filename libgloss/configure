@@ -2469,7 +2469,7 @@ case "${target}" in
 	subdirs="$subdirs wince"
 
 	;;
-  mips*-*-*)
+  mips*-*-* | pic32*-*-*)
 	subdirs="$subdirs mips"
 
 	;;
@@ -3926,7 +3926,8 @@ else
   # The final `:' finishes the AND list.
   ac_cs_awk_pipe_fini='END { print "|#_!!_#|"; print ":" }'
 fi
-ac_cr=''
+ac_cr='
+'
 ac_cs_awk_cr=`$AWK 'BEGIN { print "a\rb" }' </dev/null 2>/dev/null`
 if test "$ac_cs_awk_cr" = "a${ac_cr}b"; then
   ac_cs_awk_cr='\\r'

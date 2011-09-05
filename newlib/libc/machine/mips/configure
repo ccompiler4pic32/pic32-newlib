@@ -550,8 +550,8 @@ PACKAGE_NAME='newlib'
 PACKAGE_TARNAME='newlib'
 PACKAGE_VERSION='1.19.0'
 PACKAGE_STRING='newlib 1.19.0'
-PACKAGE_BUGREPORT=''
-PACKAGE_URL=''
+PACKAGE_BUGREPORT='http://chipkit.org/forum'
+PACKAGE_URL='http://chipkit.org/forum'
 
 ac_unique_file="setjmp.S"
 ac_subst_vars='LTLIBOBJS

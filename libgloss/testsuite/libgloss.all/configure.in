@@ -31,7 +31,7 @@ case "${target}" in
   sparclite-*-*)
 	target_makefile_frag=../config/sparcl.mt
         ;;
-  mips*-*-*)
+  mips*-*-* | pic32*-*-*)
 	target_makefile_frag=../config/mips.mt
         ;;
 esac
